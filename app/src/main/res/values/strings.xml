@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Glossary of terms</string>
+    <string name="vocabulary">Vocabulary</string>
+    <string name="like">Like</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="Terms">
+        <item>Action</item>
+        <item>Against the spread</item>
+        <item>Bad Bea</item>
+        <item>Book (Sportsbook)</item>
+        <item>Buck</item>
+        <item>Chalk</item>
+        <item>Consensus</item>
+        <item>Cover</item>
+        <item>Dime</item>
+        <item>Dollar</item>
+        <item>Edge</item>
+        <item>Even (Even Money)</item>
+        <item>Future bets</item>
+        <item>Handle</item>
+        <item>Handicapping</item>
+        <item>Hedging</item>
+        <item>Hook</item>
+        <item>In-game wagers</item>
+        <item>Juice</item>
+        <item>Limit</item>
+        <item>Lock</item>
+        <item>Long Shot</item>
+        <item>Moneyline bet</item>
+        <item>Nickel</item>
+        <item>No Action</item>
+        <item>Oddsmaker (Linemaker)</item>
+        <item>Off the Board</item>
+        <item>Over</item>
+        <item>Parlay</item>
+        <item>Pick`em</item>
+        <item>Point spread</item>
+        <item>Puckline</item>
+        <item>Proposition bets (prop)</item>
+        <item>Push</item>
+        <item>Runline</item>
+        <item>Sharp (Wiseguy)</item>
+        <item>Steam</item>
+        <item>Taking the points</item>
+        <item>Tease</item>
+        <item>TUnder</item>
+        <item>Underdog (dog)n</item>
+        <item>Wager</item>
+    </string-array>
+
+</resources>
