@@ -14,6 +14,9 @@
         android:theme="@style/Theme.GlossaryOfTerms"
         tools:targetApi="31">
         <activity
+            android:name=".WebView"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity

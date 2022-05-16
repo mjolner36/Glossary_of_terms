@@ -18,7 +18,8 @@ class StartActivity : AppCompatActivity() {
     }
     fun openPolitics(view: View){
         view.isInvisible
-        //val intent:Intent = Intent(this@StartActivity,MainActivity::class.java)
-        //startActivity(intent)
+        val intent:Intent = Intent(this@StartActivity,WebView::class.java)
+        startActivity(intent)
     }
+
 }
