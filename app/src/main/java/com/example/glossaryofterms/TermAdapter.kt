@@ -17,7 +17,7 @@ import androidx.recyclerview.widget.RecyclerView
 class TermAdapter(private val termList: MutableList<String>,
                   private val favoriteActivity: Boolean = false,
                   private val meaningList: MutableList<String>,
-                  /*private val tinyDB: TinyDB*/):RecyclerView.Adapter<TermAdapter.TermHolder>() {
+                  private val tinyDB: TinyDB):RecyclerView.Adapter<TermAdapter.TermHolder>() {
     class TermHolder(item: View,favoriteActivity: Boolean):RecyclerView.ViewHolder(item),View.OnClickListener {
         val termText:TextView = item.findViewById(R.id.termTextView)
         val addTerm:ImageView = item.findViewById(R.id.addImageView)
@@ -56,15 +56,23 @@ class TermAdapter(private val termList: MutableList<String>,
             }
         holder.addTerm.setOnClickListener(){
             holder.onClick(holder.itemView)
+            var tempArr = tinyDB.getListInt("arr")
             when (holder.addTerm.tag){
                 "delete" ->  {
                     Log.d("Click","$position удалить")
+
+                    tempArr.removeAt(position)
+                    tinyDB.putListInt("arr",tempArr)
+
                     termList.removeAt(position)
                     notifyDataSetChanged();
                 }
                  "add" -> {
-                     Log.d("Click", "$position добавить")
-
+                     if (!tempArr.contains(position)){
+                         tempArr.add(position)
+                         tinyDB.putListInt("arr",tempArr)
+                         Log.d("Click", "$position добавить")
+                     }
                  }
 
             }

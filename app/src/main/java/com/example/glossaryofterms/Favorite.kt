@@ -4,14 +4,15 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
+
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.glossaryofterms.databinding.FragmentFavoriteBinding
+import java.util.ArrayList
 
 
 class Favorite : Fragment() {
-    var favoriteArray = mutableListOf<Int>(6,7,9,10,35)
+    var favoriteArray = ArrayList<Int>()
     lateinit var binding: FragmentFavoriteBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -28,9 +29,11 @@ class Favorite : Fragment() {
     }
 
     private fun init(){
+        val tinydb = TinyDB(activity?.applicationContext)
+        favoriteArray = tinydb.getListInt("arr")
         binding.apply {
             rcViewFavorite.layoutManager = LinearLayoutManager(activity)
-            rcViewFavorite.adapter = TermAdapter(getTermList(),true,meaningList = getMeaningList())
+            rcViewFavorite.adapter = TermAdapter(getTermList(),true,meaningList = getMeaningList(),tinydb)
         }
     }
 

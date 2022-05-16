@@ -3,9 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Mjolner_/Documents/Glossary_of_terms/app/src/main/res/layout/activity_main.xml" value="0.34629629629629627" />
         <entry key="..\:/Users/Mjolner_/Documents/Glossary_of_terms/app/src/main/res/layout/activity_start.xml" value="0.18802083333333333" />
         <entry key="..\:/Users/Mjolner_/Documents/Glossary_of_terms/app/src/main/res/layout/add_term_item.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/Mjolner_/Documents/Glossary_of_terms/app/src/main/res/layout/favorite_term_item.xml" value="0.33" />
+        <entry key="..\:/Users/Mjolner_/Documents/Glossary_of_terms/app/src/main/res/layout/fragment_favorite.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/Mjolner_/Documents/Glossary_of_terms/app/src/main/res/layout/fragment_vocabulary.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/rakhm/AndroidStudioProjects/Glossaryofterms/app/src/main/res/layout/activity_favorites.xml" value="0.3625" />
         <entry key="..\:/Users/rakhm/AndroidStudioProjects/Glossaryofterms/app/src/main/res/layout/activity_main.xml" value="0.3625" />
         <entry key="..\:/Users/rakhm/AndroidStudioProjects/Glossaryofterms/app/src/main/res/layout/activity_start.xml" value="0.3625" />
