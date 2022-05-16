@@ -11,7 +11,7 @@ import com.example.glossaryofterms.databinding.FragmentFavoriteBinding
 
 
 class Favorite : Fragment() {
-    var favoriteArray = mutableListOf<Int>(1,5,17,10,3,6)
+    var favoriteArray = mutableListOf<Int>(6,7,9,10,35)
     lateinit var binding: FragmentFavoriteBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -28,10 +28,9 @@ class Favorite : Fragment() {
     }
 
     private fun init(){
-
         binding.apply {
             rcViewFavorite.layoutManager = LinearLayoutManager(activity)
-            rcViewFavorite.adapter = TermAdapter(getTermList(),true)
+            rcViewFavorite.adapter = TermAdapter(getTermList(),true,meaningList = getMeaningList())
         }
     }
 
@@ -42,6 +41,13 @@ class Favorite : Fragment() {
            tempArray.add(position,favoriteTermsArray[item])
         }
         return tempArray
+    }
+    private fun getMeaningList():MutableList<String>{
+        var favoriteMeaningArray = this.resources.getStringArray(R.array.Meaning).toMutableList()
+        var tempArray = mutableListOf<String>()
+        for ((position, item) in favoriteArray.withIndex()){
+            tempArray.add(position,favoriteMeaningArray[item])
         }
-
+        return tempArray
+    }
 }

@@ -50,4 +50,54 @@
         <item>Wager</item>
     </string-array>
 
+    <string-array name="Meaning">
+        <item>A bet or wager. </item>
+        <item>The result of a game including the point spread. </item>
+        <item>A bet that looks like the bettor is going to win but doesn`t. </item>
+        <item>An place where someone can bet on the outcome of sporting events. </item>
+        <item>A $100 bet. </item>
+        <item>The favorite in a game. </item>
+        <item>Percentage of the betting public on each side of a game. Some bettors will bet against the "public money" (whichever team more bettors have placed their bets on). </item>
+        <item>The betting outcome on a point spread bet. For a favorite to cover, it must win by a number higher than the spread. An underdog can cover by losing by a number less than the spread or by winning the game outright. </item>
+        <item>A $1,000 bet. </item>
+        <item>A $100 bet. </item>
+        <item>The advantage a bettor has before a bet is placed. </item>
+        <item>A $100 bet to win $100</item>
+        <item>A team favored to win a game. </item>
+        <item>A bet on events that will happen further in the future like who will win a division or who will win a championship well in advance. </item>
+        <item>The total amount of money wagered on a game. </item>
+        <item>Researching sports statistics to pick winners. </item>
+        <item>Betting opposite of a previous bet to guarantee winning at least a small amount of money. </item>
+        <item>A half-point in the spread</item>
+        <item>Bets made after a game started. </item>
+        <item>A commission books win on each bet. </item>
+        <item>The maximum allowed wager on a single bet. </item>
+        <item>A large favorite. </item>
+        <item>A large underdog. </item>
+        <item>A bet made if a team will win or lose outright with no point spread. </item>
+        <item>A $500 bet. </item>
+        <item>A game that is no longer taking bets and all wagers are refunded. </item>
+        <item>Someone who sets the opening line on a game. </item>
+        <item>A game bettors can not wager on. </item>
+        <item>The combined score of two teams is more than what the sportsbook set. </item>
+        <item>A a bet that combines multiple games for a higher payout. The more games, the higher the risk but the greater the payout. In order for the parlay to win, each game must win or push (tie). If any of the games lose, the entire wager loses. </item>
+        <item>A game with no favorite or underdog. </item>
+        <item>Margin of victory set by oddsmakers to attract bets action on both the favorite and the underdog. A favorite must win by a number higher than the point spread to cover the spread. An underdog can cover by losing by a number less than the spread or by winning the game outright. </item>
+        <item>Hockey has a point spread of -1.5 for the favorite and +1.5 for the underdog. </item>
+        <item>A bet on anything that is not directly tied to the outcome of the game. For example, it can be the first team or the first player to score in a game. </item>
+        <item>When neither team covers the spread (the actual margin of victory lands exactly on the spread), no one wins the bet and all wagers are refunded. </item>
+        <item>Baseball has a point spread of -1.5 for the favorite and +1.5 for the underdog. </item>
+        <item>A professional sports bettor. </item>
+        <item>A quick change on a line due to heavy wagering. </item>
+        <item>Betting an underdog against the spread. </item>
+        <item>Similar to a teaser, spreads are favored towards the bettor but has a lower payout. </item>
+        <item>Total bet (over/under) - A bet on the combined number of points scored by both teams in a game, including overtime/extra innings. </item>
+        <item>The combined score of two teams is less than what the sportsbook set. </item>
+        <item>A team not favored to win a game. </item>
+        <item>A get placed at a sportsbook. </item>
+    </string-array>
+
+
+
+
 </resources>

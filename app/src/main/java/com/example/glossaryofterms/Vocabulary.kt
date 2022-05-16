@@ -30,10 +30,10 @@ class Vocabulary : Fragment() {
 
 
     private fun init(){
-
+        val meaningList =  resources.getStringArray(R.array.Meaning).toMutableList()
         binding.apply {
             rcView.layoutManager = LinearLayoutManager(activity)
-            rcView.adapter = TermAdapter(getTermList())
+            rcView.adapter = TermAdapter(getTermList(), meaningList = meaningList, )
         }
     }
 
